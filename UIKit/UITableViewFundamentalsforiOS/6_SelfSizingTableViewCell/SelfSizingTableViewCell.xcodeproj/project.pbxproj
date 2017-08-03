@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D828EC931C6128940091EB36 /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D828EC8E1C6128940091EB36 /* APLAppDelegate.m */; };
+		D828EC941C6128940091EB36 /* APLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D828EC901C6128940091EB36 /* APLTableViewController.m */; };
+		D828EC951C6128940091EB36 /* APLTimeZoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D828EC921C6128940091EB36 /* APLTimeZoneCell.m */; };
+		D828EC981C6128AF0091EB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D828EC961C6128AF0091EB36 /* Main.storyboard */; };
+		D828ECA01C6128CD0091EB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D828EC9F1C6128CD0091EB36 /* Assets.xcassets */; };
+		D828ECA31C6128DF0091EB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D828ECA11C6128DF0091EB36 /* LaunchScreen.storyboard */; };
+		D828ECA71C6128FE0091EB36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D828ECA61C6128FE0091EB36 /* main.m */; };
+		D85C284F1C7F88B5009DAF3B /* APLRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = D85C284C1C7F88B5009DAF3B /* APLRegion.m */; };
+		D85C28501C7F88B5009DAF3B /* APLTimeZoneWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D85C284E1C7F88B5009DAF3B /* APLTimeZoneWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D828EC691C6111B70091EB36 /* SelfSizingTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D828EC8D1C6128940091EB36 /* APLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLAppDelegate.h; path = SelfSizingTableViewCell/APLAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D828EC8E1C6128940091EB36 /* APLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLAppDelegate.m; path = SelfSizingTableViewCell/APLAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D828EC8F1C6128940091EB36 /* APLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLTableViewController.h; path = SelfSizingTableViewCell/APLTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D828EC901C6128940091EB36 /* APLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLTableViewController.m; path = SelfSizingTableViewCell/APLTableViewController.m; sourceTree = SOURCE_ROOT; };
+		D828EC911C6128940091EB36 /* APLTimeZoneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLTimeZoneCell.h; path = SelfSizingTableViewCell/APLTimeZoneCell.h; sourceTree = SOURCE_ROOT; };
+		D828EC921C6128940091EB36 /* APLTimeZoneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLTimeZoneCell.m; path = SelfSizingTableViewCell/APLTimeZoneCell.m; sourceTree = SOURCE_ROOT; };
+		D828EC971C6128AF0091EB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SelfSizingTableViewCell/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		D828EC9F1C6128CD0091EB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SelfSizingTableViewCell/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		D828ECA21C6128DF0091EB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SelfSizingTableViewCell/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		D828ECA41C6128F50091EB36 /* SelfSizingTableViewCell-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SelfSizingTableViewCell-Info.plist"; path = "SelfSizingTableViewCell/SelfSizingTableViewCell-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D828ECA61C6128FE0091EB36 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SelfSizingTableViewCell/main.m; sourceTree = SOURCE_ROOT; };
+		D85C284B1C7F88B5009DAF3B /* APLRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLRegion.h; path = "../Shared Model Wrappers/APLRegion.h"; sourceTree = SOURCE_ROOT; };
+		D85C284C1C7F88B5009DAF3B /* APLRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLRegion.m; path = "../Shared Model Wrappers/APLRegion.m"; sourceTree = SOURCE_ROOT; };
+		D85C284D1C7F88B5009DAF3B /* APLTimeZoneWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLTimeZoneWrapper.h; path = "../Shared Model Wrappers/APLTimeZoneWrapper.h"; sourceTree = SOURCE_ROOT; };
+		D85C284E1C7F88B5009DAF3B /* APLTimeZoneWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLTimeZoneWrapper.m; path = "../Shared Model Wrappers/APLTimeZoneWrapper.m"; sourceTree = SOURCE_ROOT; };
+		D8E9B0891C73E9BD008E3319 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = ../ReadMe.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D828EC661C6111B70091EB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D828EC601C6111B70091EB36 = {
+			isa = PBXGroup;
+			children = (
+				D8E9B0891C73E9BD008E3319 /* ReadMe.md */,
+				D828EC6B1C6111B70091EB36 /* SelfSizingTableViewCell */,
+				D828EC6A1C6111B70091EB36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D828EC6A1C6111B70091EB36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D828EC691C6111B70091EB36 /* SelfSizingTableViewCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D828EC6B1C6111B70091EB36 /* SelfSizingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D828EC961C6128AF0091EB36 /* Main.storyboard */,
+				D828EC8D1C6128940091EB36 /* APLAppDelegate.h */,
+				D828EC8E1C6128940091EB36 /* APLAppDelegate.m */,
+				D828EC911C6128940091EB36 /* APLTimeZoneCell.h */,
+				D828EC921C6128940091EB36 /* APLTimeZoneCell.m */,
+				D828EC8F1C6128940091EB36 /* APLTableViewController.h */,
+				D828EC901C6128940091EB36 /* APLTableViewController.m */,
+				D828EC831C611B4D0091EB36 /* Model */,
+				D828EC6C1C6111B70091EB36 /* Supporting Files */,
+			);
+			name = SelfSizingTableViewCell;
+			path = 6_SelfSizingTableViewCell;
+			sourceTree = "<group>";
+		};
+		D828EC6C1C6111B70091EB36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D828EC9F1C6128CD0091EB36 /* Assets.xcassets */,
+				D828ECA11C6128DF0091EB36 /* LaunchScreen.storyboard */,
+				D828ECA41C6128F50091EB36 /* SelfSizingTableViewCell-Info.plist */,
+				D828ECA61C6128FE0091EB36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D828EC831C611B4D0091EB36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D85C284B1C7F88B5009DAF3B /* APLRegion.h */,
+				D85C284C1C7F88B5009DAF3B /* APLRegion.m */,
+				D85C284D1C7F88B5009DAF3B /* APLTimeZoneWrapper.h */,
+				D85C284E1C7F88B5009DAF3B /* APLTimeZoneWrapper.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D828EC681C6111B70091EB36 /* SelfSizingTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D828EC801C6111B80091EB36 /* Build configuration list for PBXNativeTarget "SelfSizingTableViewCell" */;
+			buildPhases = (
+				D828EC651C6111B70091EB36 /* Sources */,
+				D828EC661C6111B70091EB36 /* Frameworks */,
+				D828EC671C6111B70091EB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfSizingTableViewCell;
+			productName = 6_SelfSizingTableViewCell;
+			productReference = D828EC691C6111B70091EB36 /* SelfSizingTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D828EC611C6111B70091EB36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joseph Rouleau";
+				TargetAttributes = {
+					D828EC681C6111B70091EB36 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D828EC641C6111B70091EB36 /* Build configuration list for PBXProject "SelfSizingTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D828EC601C6111B70091EB36;
+			productRefGroup = D828EC6A1C6111B70091EB36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D828EC681C6111B70091EB36 /* SelfSizingTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D828EC671C6111B70091EB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D828ECA31C6128DF0091EB36 /* LaunchScreen.storyboard in Resources */,
+				D828EC981C6128AF0091EB36 /* Main.storyboard in Resources */,
+				D828ECA01C6128CD0091EB36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D828EC651C6111B70091EB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85C284F1C7F88B5009DAF3B /* APLRegion.m in Sources */,
+				D828EC951C6128940091EB36 /* APLTimeZoneCell.m in Sources */,
+				D828EC931C6128940091EB36 /* APLAppDelegate.m in Sources */,
+				D828ECA71C6128FE0091EB36 /* main.m in Sources */,
+				D85C28501C7F88B5009DAF3B /* APLTimeZoneWrapper.m in Sources */,
+				D828EC941C6128940091EB36 /* APLTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D828EC961C6128AF0091EB36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D828EC971C6128AF0091EB36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D828ECA11C6128DF0091EB36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D828ECA21C6128DF0091EB36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D828EC7E1C6111B80091EB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D828EC7F1C6111B80091EB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D828EC811C6111B80091EB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				INFOPLIST_FILE = "SelfSizingTableViewCell/SelfSizingTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SelfSizingTableViewCell";
+				PRODUCT_NAME = SelfSizingTableViewCell;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D828EC821C6111B80091EB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				INFOPLIST_FILE = "SelfSizingTableViewCell/SelfSizingTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SelfSizingTableViewCell";
+				PRODUCT_NAME = SelfSizingTableViewCell;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D828EC641C6111B70091EB36 /* Build configuration list for PBXProject "SelfSizingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D828EC7E1C6111B80091EB36 /* Debug */,
+				D828EC7F1C6111B80091EB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D828EC801C6111B80091EB36 /* Build configuration list for PBXNativeTarget "SelfSizingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D828EC811C6111B80091EB36 /* Debug */,
+				D828EC821C6111B80091EB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D828EC611C6111B70091EB36 /* Project object */;
+}
